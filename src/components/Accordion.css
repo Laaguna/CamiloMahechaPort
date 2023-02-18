@@ -1,0 +1,13 @@
+.accordion .item{
+    border: 1;
+    border-radius: 5%;
+}
+.accordion .item .accordion-header button{
+    background-color: #212529;
+    color: white;
+    border-radius: 1%;
+    box-shadow: 3px 3px white;
+}
+.accordion .item .accordion-header{
+    font-family: monospace;
+}
