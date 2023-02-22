@@ -26,7 +26,7 @@ const AboutMe= () => {
         </MDBTypography>;
 
     const two = 
-        <MDBTypography tag='h2' className = 'Titulo' style = {{fontFamily: 'monospace', fontSize: 80, color: 'white'   }}>
+        <MDBTypography tag='h3' className = 'Titulo' style = {{fontFamily: 'monospace', fontSize: 70, color: 'white'   }}>
             Camilo Mahecha.
         </MDBTypography>;
 
@@ -37,8 +37,8 @@ const AboutMe= () => {
 
     const four = (
         <MDBTypography className = 'Titulo' style = {{fontFamily: 'monospace', fontSize: 18, color: 'white' }}>
-            I'm a younger web developer, that likes to build websites in React. 
-            Currently, i'm focused on learning new technologies, to expand my knowledge.
+            I'm a young web developer, that likes to build websites in React. 
+            Currently, I'm focused on learning new technologies, to expand my knowledge.
         </MDBTypography>
         
     );

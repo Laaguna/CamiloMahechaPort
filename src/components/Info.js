@@ -146,7 +146,7 @@ const Info = () => {
 
                     <div ref={BoxPic} className = 'd-flex flex-row justify-content-center align-items-center w-100' style = {stylePic}>
                         
-                            <img src='https://i.ibb.co/tmH5sDk/reze.jpg' alt='me' style={{width: '60%'}}/>
+                            <img src='https://i.ibb.co/3N0gfQr/Camilo-Mahecha-Foto.jpg' alt='me' style={{width: '60%'}}/>
                         
                     </div>
                 </div>

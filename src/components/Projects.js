@@ -2,7 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import {gsap} from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 gsap.registerPlugin(ScrollTrigger)
+
 
 function Projects() {
     const BoxProj = useRef(null);
@@ -23,10 +25,10 @@ function Projects() {
     },[])
 
     const styleProj = {
-        height: '1000px', 
+        height: '800px', 
         width: '60%',
 
-        '@media (minWidth: 768px)': {
+        '@media (maxWidth: 768px)': {
             height: '100%'
         }
     }
@@ -65,9 +67,11 @@ function Projects() {
                                         to the recolection points to manage 
                                         their inventories about the used wheels in Bogota
                                     </p>
-                                    <Button variant="outline-info" className = 'sm font-monospace' >
-                                        Go project!
-                                    </Button>
+                                    <Link to = {"https://github.com/Laaguna/Llantas2"}>
+                                        <Button variant="outline-info" className = 'sm font-monospace' >
+                                            Go project!
+                                        </Button>
+                                    </Link>
                                 </div>
 
                                 <div className="card-footer">
@@ -105,32 +109,6 @@ function Projects() {
                             </div>
                         </div>
 
-                        <div className="col">
-                            <div className="card text-white bg-dark border-light mb-3">
-                                    <img src="https://i.ibb.co/QH1qwMR/comingsoon.png" className="card-img-top" alt="..."/>
-                                <div className="card-body">
-
-                                    <h5 className="card-title font-monospace">
-                                        Coming Soon..
-                                    </h5>
-
-                                    <p className="card-text font-monospace">
-                                        Lorem Ipsum is simply dummy text of the printing and 
-                                        typesetting industry. Lorem Ipsum has been the industry's 
-                                        standard dummy text ever since the 1500s
-                                    </p>
-                                    <Button variant="outline-info" className = 'sm font-monospace' >
-                                        Go project?
-                                    </Button>
-                                </div>
-
-                                <div className="card-footer">
-                                    <small className="text-muted font-monospace">
-                                        Coming Soon..
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
 
                     </div>
                 </div>
